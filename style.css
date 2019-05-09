@@ -1,0 +1,46 @@
+@media only screen and (min-width: 900px) {
+
+    body {
+        background-color: green;
+    }
+}
+
+@media only screen and (min-width: 320px) {
+
+    /* stijlregels voor browserschermen > 320px en < 720px */
+    body {
+        background-color: yellow;
+    }
+    .foto {
+        width: 100%;
+    }
+    .tekstbox {
+        background-color: greenyellow;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+   
+    }
+
+}
+
+
+@media only screen and (min-width: 720px) {
+
+    /* stijlregels voor browserschermen > 720px en < 1024px */
+    body {
+        background-color: red;
+    }
+
+}
+
+
+@media only screen and (min-width:1024px) {
+
+    /* stijlregels voor browserschermen ≥ 1024px */
+    body {
+        background-color: black;
+    }
+
+}
+
