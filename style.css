@@ -1,7 +1,7 @@
 @media only screen and (min-width: 900px) {
 
     body {
-        background-color: green;
+        background-color: white;
     }
 }
 
@@ -9,10 +9,14 @@
 
     /* stijlregels voor browserschermen > 320px en < 720px */
     body {
-        background-color: yellow;
+        background-color: white;
     }
     .datum {
-        background-color: dodgerblue;
+        display: flex;
+        justify-content: center;
+        color: lightgray;
+        background-color: black;
+        border: white solid 1px;
     }
     .foto {
         width: 100%;
@@ -34,7 +38,7 @@
 
     /* stijlregels voor browserschermen > 720px en < 1024px */
     body {
-        background-color: yellow;
+        background-color: white;
     }
     .foto {
         margin-top: 1%;
