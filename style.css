@@ -1,5 +1,12 @@
+
+body {
+    background-color: pink;
+}
+
 @media all and (max-width: 900px) {
     body {
         background-color: lightgreen;
     }
+
 }
+
